@@ -1,0 +1,240 @@
+/* Header section */
+.header .header-logo img {
+    width: 107px;
+}
+.header .header-menu ul {
+    margin: 0;
+}
+
+.header-menu {}
+.header-menu ul{}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a{
+    display: block;
+    color: #fff;
+    padding: 0 20px;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+ 
+    .header-menu ul li a:hover{
+        text-decoration: underline;
+    }
+    .header-menu ul li a i{
+        font-weight: 700;
+    }
+/* drop downmenu */
+.header-menu ul li{
+    position: relative;
+}
+.header-menu ul li ul {
+position: absolute;
+top: 174%;
+left: 0;
+background-color: #000;
+border-top: 4px solid #fff;
+visibility: hidden;
+opacity: 0;
+transition: .5s;
+}
+.header-menu ul li ul li {
+    display: block;
+    transition: all 0.3s ease 0s;
+    width: 184px;
+    margin-left: -32px;
+}
+.header-menu ul li ul li a{
+    display: block;
+    transition: .3s;
+    text-decoration: none;
+}
+/* hover css */
+.header-menu ul li ul li:hover{
+    background-color: #fff;
+    
+}
+.header-menu ul li ul li a:hover{
+    color: #000;
+}
+.header-menu ul li:hover ul{
+visibility: visible;
+opacity: 1;
+}
+
+/* banner section */
+.banner{
+    background: url(./image/a0c6042d4612d7adf44692fffac7e082.jpg)no-repeat
+   top center ;
+    background-size: cover;
+    padding: 200px 0;
+}
+.banner h1{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.banner h5{
+    font-weight: 700;
+}
+.banner a {
+    font-size: 23px;
+    margin-right: 22px;
+    display: inline-block;
+    padding: 10px 21px;
+    transition: .5s;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.banner .star {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+.banner .contact {
+    background-color: #fff;
+    font-weight: 500;
+    color: #000;
+}
+/* banner hover */
+.banner .star:hover{
+    background-color: #fff;
+    color: #000;
+}
+.banner .contact:hover{
+    background-color: #000;
+    color: #fff;
+}
+/* About section */
+
+.About{
+    background-color: #87a471;
+}
+.About h2 {
+    color: #e9dfdb;
+    font-weight: 600;
+ 
+    text-transform: uppercase;
+    font-size: 40px;
+    text-shadow: 2px 0px 2px #Fff;
+    margin-bottom: 47px;
+    position: relative;
+}
+.About h2::after{
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 470px;
+    width: 18%;
+    height: 3px;
+    background-color: #e8dfda;
+}
+.About p{
+    margin-top: 94px;
+    text-align: justify;
+    color: #fff;
+}
+.About img{
+    max-width: 67%;
+}
+/* service section */
+.service{
+    background-color: #606a64;
+}
+.service h1 {
+    text-transform: uppercase;
+    text-shadow: 1px 0 5px #e8dfda;
+   position: relative;
+}
+.service h1::after {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 470px;
+    width: 18%;
+    height: 3px;
+    background-color: #e8dfda;
+}
+.service h3 {
+    padding: 10px 0;
+}
+
+.service p {
+    width: 822px;
+    margin: auto;
+    margin-bottom: 39px;
+}
+.service h5{}
+.service .card {
+    color: #45617e;
+    text-align: justify;
+    padding: 50px;
+}
+/* check section */
+.check{
+    background-color: #87a471;
+}
+.check h3 {
+    font-size: 40px;
+}
+.check .img img{
+    max-width: 100%;
+}
+.check .img p{
+    color: #4f6985;
+}
+.check .img-2 img{
+    max-width: 100%;
+}
+/* teem section */
+.Teem{
+    background-color: #5b9776;
+}
+.Teem h2 {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.Teem h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 443px;
+    width: 22%;
+    height: 3px;
+    background-color: #ddd;
+    display: inline-block;
+}
+.Teem img {
+    width: 302px;
+}
+.Teem a i {
+    color: #fff;
+    font-size: 32px;
+    padding: 10px 9px;
+    transition: .5s;
+}
+.Teem .T-item {
+    margin-top: 27px;
+}
+.Teem a i:hover{
+color: #113a67;
+}
+/* want section */
+.want{
+    background-color: #606a64;
+}
+.want .get {
+    display: inline-block;
+    background-color: #00bc9c;
+    color: #fff;
+    font-size: 20px;
+    padding: 7px 26px;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: .5s;
+}
+.want .get:hover{
+    background-color:#113a67 ;
+}
